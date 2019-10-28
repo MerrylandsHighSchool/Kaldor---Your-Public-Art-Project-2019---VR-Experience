@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F53CE407-8B30-1E8D-5C77-BED59F81EF35}</ProjectGuid>
+    <ProjectGuid>{9EFE3917-2FA8-D535-D7FD-B7E05BFE851C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Services.CameraSystem</AssemblyName>
@@ -296,19 +296,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/stemsharevr062.AzureAD/Desktop/New Unity Project/New Unity Project (1)/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/stemsharevr062.AzureAD/Documents/VR-APP/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/stemsharevr062.AzureAD/Desktop/New Unity Project/New Unity Project (1)/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/stemsharevr062.AzureAD/Documents/VR-APP/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/stemsharevr062.AzureAD/Desktop/New Unity Project/New Unity Project (1)/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/stemsharevr062.AzureAD/Documents/VR-APP/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/stemsharevr062.AzureAD/Desktop/New Unity Project/New Unity Project (1)/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/stemsharevr062.AzureAD/Documents/VR-APP/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/stemsharevr062.AzureAD/Desktop/New Unity Project/New Unity Project (1)/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/stemsharevr062.AzureAD/Documents/VR-APP/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -667,7 +667,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{8781EAAC-86B2-EF0A-23DE-DC8791524CF4}</Project>
+      <Project>{CA0AFD95-135E-45E7-7470-B9C72A115518}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
   </ItemGroup>
