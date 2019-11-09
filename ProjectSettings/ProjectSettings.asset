@@ -3,7 +3,7 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 15
+  serializedVersion: 18
   productGUID: f3023628942b9ec4682c34f01c47e1f8
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -12,14 +12,14 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: New Unity Project (1)
+  companyName: MHS DEVS
+  productName: Kaldor - Your Public Art Project 2019 - VR Experience
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+  m_SplashScreenBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
-  m_SplashScreenOverlayOpacity: 1
+  m_SplashScreenOverlayOpacity: 0.5
   m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 1
   m_SplashScreenDrawMode: 0
@@ -40,7 +40,8 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 697e9b2df8d2fef429cfca41c7ea8cf4,
+    type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
@@ -52,8 +53,8 @@ PlayerSettings:
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
-  iosAppInBackgroundBehavior: 0
   displayResolutionDialog: 1
+  iosUseCustomAppBackgroundBehavior: 0
   iosAllowHTTPDownload: 1
   allowedAutorotateToPortrait: 1
   allowedAutorotateToPortraitUpsideDown: 1
@@ -65,6 +66,7 @@ PlayerSettings:
   disableDepthAndStencilBuffers: 0
   androidStartInFullscreen: 1
   androidRenderOutsideSafeArea: 0
+  androidUseSwappy: 0
   androidBlitType: 0
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
@@ -79,6 +81,7 @@ PlayerSettings:
   usePlayerLog: 1
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
+  useFlipModelSwapchain: 1
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
@@ -118,14 +121,13 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.1
+  bundleVersion: 1.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
-  m_HolographicPauseOnTrackingLoss: 1
+  m_HolographicPauseOnTrackingLoss: 0
   xboxOneDisableKinectGpuReservation: 1
   xboxOneEnable7thCore: 1
-  isWsaHolographicRemotingEnabled: 0
   vrSettings:
     cardboard:
       depthFormat: 0
@@ -140,10 +142,20 @@ PlayerSettings:
     hololens:
       depthFormat: 0
       depthBufferSharingEnabled: 1
+    lumin:
+      depthFormat: 0
+      frameTiming: 2
+      enableGLCache: 0
+      glCacheMaxBlobSize: 524288
+      glCacheMaxFileSize: 8388608
     oculus:
       sharedDepthBuffer: 1
       dashSupport: 1
+      lowOverheadMode: 0
+      protectedContext: 0
+      v2Signing: 0
     enable360StereoCapture: 0
+  isWsaHolographicRemotingEnabled: 0
   protectGraphicsMemory: 0
   enableFrameTimingStats: 0
   useHDRDisplay: 0
@@ -192,6 +204,10 @@ PlayerSettings:
   iPadHighResPortraitSplashScreen: {fileID: 0}
   iPadLandscapeSplashScreen: {fileID: 0}
   iPadHighResLandscapeSplashScreen: {fileID: 0}
+  iPhone65inPortraitSplashScreen: {fileID: 0}
+  iPhone65inLandscapeSplashScreen: {fileID: 0}
+  iPhone61inPortraitSplashScreen: {fileID: 0}
+  iPhone61inLandscapeSplashScreen: {fileID: 0}
   appleTVSplashScreen: {fileID: 0}
   appleTVSplashScreen2x: {fileID: 0}
   tvOSSmallIconLayers: []
@@ -251,11 +267,14 @@ PlayerSettings:
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
+  androidUseCustomKeystore: 0
   m_AndroidBanners:
   - width: 320
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
+  AndroidValidateAppBundleSize: 1
+  AndroidAppBundleSizeToValidate: 150
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons: []
@@ -274,6 +293,9 @@ PlayerSettings:
     m_DynamicBatching: 0
   - m_BuildTarget: WebGL
     m_StaticBatching: 0
+    m_DynamicBatching: 0
+  - m_BuildTarget: Windows Store Apps
+    m_StaticBatching: 1
     m_DynamicBatching: 0
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
@@ -298,9 +320,14 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - WindowsMR
-  m_BuildTargetEnableVuforiaSettings: []
+  - m_BuildTarget: Windows Store Apps
+    m_Enabled: 1
+    m_Devices:
+    - WindowsMR
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
+  openGLRequireES32: 0
+  vuforiaEnabled: 0
   m_TemplateCustomTags: {}
   mobileMTRendering:
     Android: 1
@@ -484,6 +511,7 @@ PlayerSettings:
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
+  playerPrefsMaxSize: 32768
   ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
   ps4pnSessions: 1
   ps4pnPresence: 1
@@ -517,6 +545,7 @@ PlayerSettings:
   monoEnv: 
   splashScreenBackgroundSourceLandscape: {fileID: 0}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
+  blurSplashScreenBackground: 0
   spritePackerPolicy: 
   webGLMemorySize: 256
   webGLExceptionSupport: 1
@@ -531,6 +560,7 @@ PlayerSettings:
   webGLCompressionFormat: 1
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
+  webGLWasmStreaming: 0
   scriptingDefineSymbols: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -540,39 +570,130 @@ PlayerSettings:
   allowUnsafeCode: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
-  apiCompatibilityLevelPerPlatform: {}
+  gcIncremental: 0
+  gcWBarrierValidation: 0
+  apiCompatibilityLevelPerPlatform:
+    Metro: 6
+    Windows Store Apps: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Template_3D
-  metroPackageVersion: 
-  metroCertificatePath: 
+  metroPackageName: Template3D
+  metroPackageVersion: 1.0.0.0
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: MHS DEVS
+  metroCertificateIssuer: MHS DEVS
+  metroCertificateNotAfter: 80491c23bdb1d601
   metroApplicationDescription: Template_3D
-  wsaImages: {}
-  metroTileShortName: 
+  wsaImages:
+    65636: Assets/Graphics/Icons/50w/Artboard 50x50.png
+    65661: Assets/Graphics/Icons/63w/Artboard 63x63.png
+    65676: Assets/Graphics/Icons/70w/Artboard 70x70.png
+    65686: Assets/Graphics/Icons/75w/Artboard 75x75.png
+    65716: Assets/Graphics/Icons/90w/Artboard 90x90.png
+    65736: Assets/Graphics/Icons/100w/Artboard 100x100.png
+    65776: Assets/Graphics/Icons/120w/Artboard 120x120.png
+    65936: Assets/Graphics/Icons/200w/Artboard 200x200.png
+    131172: Assets/Graphics/splashscreens/splash620x300.png
+    131197: Assets/Graphics/splashscreens/splash775x375.png
+    131212: Assets/Graphics/splashscreens/splash868x420.png
+    131222: Assets/Graphics/splashscreens/splash930x450.png
+    131252: Assets/Graphics/splashscreens/splash1116x540.png
+    131272: Assets/Graphics/splashscreens/splash1240x600.png
+    131472: Assets/Graphics/splashscreens/splash2480x1200.png
+    2031632: Assets/Graphics/Icons/16w/Artboard 16x16.png
+    2031640: Assets/Graphics/Icons/24w/Artboard 24x24.png
+    2031648: Assets/Graphics/Icons/32w/Artboard 32x32.png
+    2031664: Assets/Graphics/Icons/48w/Artboard 48x48.png
+    2031716: Assets/Graphics/Icons/44h/Artboard 44x44.png
+    2031741: Assets/Graphics/Icons/55h/Artboard 55x55.png
+    2031766: Assets/Graphics/Icons/66h/Artboard 66x66.png
+    2031816: Assets/Graphics/Icons/88h/Artboard 88x88.png
+    2031872: Assets/Graphics/Icons/256w/Artboard 256x256.png
+    2032016: Assets/Graphics/Icons/176h/Artboard 176x176.png
+    2097252: Assets/Graphics/Icons/71w/Artboard 71x71.png
+    2097277: Assets/Graphics/Icons/89w/Artboard 89x89.png
+    2097302: Assets/Graphics/Icons/107w/Artboard 107x107.png
+    2097352: Assets/Graphics/Icons/142w/Artboard 142x142.png
+    2097552: Assets/Graphics/Icons/284w/Artboard 284x284.png
+    2162788: Assets/Graphics/Icons/150w/Artboard 150x150.png
+    2162813: Assets/Graphics/Icons/188w/Artboard 188x188.png
+    2162838: Assets/Graphics/Icons/225w/Artboard 225x225.png
+    2162888: Assets/Graphics/Icons/300w/Artboard 300x300.png
+    2163088: Assets/Graphics/Icons/600w/Artboard 600x600.png
+    2228324: Assets/Graphics/Icons/310w/Artboard 310x310.png
+    2228349: Assets/Graphics/Icons/388w/Artboard 388x388.png
+    2228374: Assets/Graphics/Icons/465w/Artboard 465x465.png
+    2228424: Assets/Graphics/Icons/620w/Artboard 620x620.png
+    2228624: Assets/Graphics/Icons/1240w/Artboard 1240x1240.png
+    2293860: Assets/Graphics/Icons/310w/Artboard 310x150.png
+    2293885: Assets/Graphics/Icons/388w/Artboard 388x188.png
+    2293910: Assets/Graphics/Icons/465w/Artboard 465x225.png
+    2293960: Assets/Graphics/Icons/620w/Artboard 620x300.png
+    2294160: Assets/Graphics/Icons/1240w/Artboard 1240x600.png
+  metroTileShortName: Kaldor - Your Public Art Project 2019
   metroTileShowName: 0
   metroMediumTileShowName: 0
-  metroLargeTileShowName: 0
-  metroWideTileShowName: 0
+  metroLargeTileShowName: 1
+  metroWideTileShowName: 1
   metroSupportStreamingInstall: 0
   metroLastRequiredScene: 0
   metroDefaultTileSize: 1
   metroTileForegroundText: 2
-  metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
+  metroTileBackgroundColor: {r: 1, g: 1, b: 1, a: 0}
   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
     a: 1}
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
     WindowsStoreApps:
-      SpatialPerception: False
-  metroTargetDeviceFamilies: {}
+      AllJoyn: False
+      Appointments: False
+      BackgroundMediaPlayback: False
+      BlockedChatMessages: False
+      Bluetooth: False
+      Chat: False
+      CodeGeneration: False
+      Contacts: False
+      EnterpriseAuthentication: False
+      HumanInterfaceDevice: False
+      InputInjectionBrokered: False
+      InternetClient: False
+      InternetClientServer: False
+      Location: False
+      LowLevelDevices: False
+      Microphone: False
+      MusicLibrary: False
+      Objects3D: False
+      OfflineMapsManagement: False
+      PhoneCall: False
+      PhoneCallHistoryPublic: False
+      PicturesLibrary: False
+      PointOfService: False
+      PrivateNetworkClientServer: False
+      Proximity: False
+      RecordedCallsFolder: False
+      RemoteSystem: False
+      RemovableStorage: False
+      SharedUserCertificates: False
+      SpatialPerception: True
+      SystemManagement: False
+      UserAccountInformation: False
+      UserDataTasks: False
+      UserNotificationListener: False
+      VideosLibrary: False
+      VoipCall: False
+      WebCam: False
+  metroTargetDeviceFamilies:
+    Desktop: False
+    Holographic: False
+    IoT: False
+    IoTHeadless: False
+    Mobile: False
+    Team: False
+    Xbox: False
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
-  metroCompilationOverrides: 1
   XboxOneProductId: 
   XboxOneUpdateKey: 
   XboxOneSandboxId: 
@@ -611,7 +732,7 @@ PlayerSettings:
     m_PortalFolderPath: 
   luminCert:
     m_CertPath: 
-    m_PrivateKeyPath: 
+    m_SignPackage: 1
   luminIsChannelApp: 0
   luminVersion:
     m_VersionCode: 1
