@@ -984,7 +984,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ChangeWorld.cs" />
     <Compile Include="Assets\Scripts\DataScript.cs" />
-    <Compile Include="Assets\Scripts\MRPlayspaceMover.cs" />
+    <Compile Include="Assets\Scripts\MoveObjects.cs" />
     <Compile Include="Assets\Scripts\OpenMenu.cs" />
     <Compile Include="Assets\Scripts\PlayVideoScript.cs" />
   </ItemGroup>

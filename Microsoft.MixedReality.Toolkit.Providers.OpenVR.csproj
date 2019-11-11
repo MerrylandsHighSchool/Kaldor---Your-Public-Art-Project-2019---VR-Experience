@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{47E1D0B3-2F25-BC38-44A8-37C5EA15DEA5}</ProjectGuid>
+    <ProjectGuid>{5859DF46-81DD-D455-6D16-9186C7FAD5D6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.OpenVR</AssemblyName>
@@ -71,13 +71,13 @@
     <Compile Include="Assets\MixedRealityToolkit.Providers\OpenVR\ViveWandController.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Providers\OpenVR\WindowsMixedRealityOpenVRMotionController.cs" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/benpa/Desktop/VR-APP - Copy/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/benpa/Desktop/Kaldor---Your-Public-Art-Project-2019---VR-Experience/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/benpa/Desktop/VR-APP - Copy/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/benpa/Desktop/Kaldor---Your-Public-Art-Project-2019---VR-Experience/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/benpa/Desktop/VR-APP - Copy/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/benpa/Desktop/Kaldor---Your-Public-Art-Project-2019---VR-Experience/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -266,19 +266,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/benpa/Desktop/VR-APP - Copy/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/benpa/Desktop/Kaldor---Your-Public-Art-Project-2019---VR-Experience/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/benpa/Desktop/VR-APP - Copy/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/benpa/Desktop/Kaldor---Your-Public-Art-Project-2019---VR-Experience/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/benpa/Desktop/VR-APP - Copy/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/benpa/Desktop/Kaldor---Your-Public-Art-Project-2019---VR-Experience/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/benpa/Desktop/VR-APP - Copy/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/benpa/Desktop/Kaldor---Your-Public-Art-Project-2019---VR-Experience/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/benpa/Desktop/VR-APP - Copy/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/benpa/Desktop/Kaldor---Your-Public-Art-Project-2019---VR-Experience/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -637,7 +637,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{9C5FDF5D-8F80-6865-7775-5DEC3D0312BE}</Project>
+      <Project>{6982DD7D-C0E2-5DDC-B1C5-3A640EA31D25}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
   </ItemGroup>
