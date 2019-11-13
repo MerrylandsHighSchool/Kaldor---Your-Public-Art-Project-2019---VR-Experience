@@ -7,5 +7,5 @@ IgnorableNamespaces="uap uap2 uap3 uap4 uap5 mp mobile iot"
 		<uap:ShowOn Tile="square310x310Logo" />
 		<uap:ShowOn Tile="wide310x150Logo" />
 	</uap:ShowNameOnTiles>
-	<uap5:MixedRealityModel Path="Assets\StoreModel.glb" />
+	<uap5:MixedRealityModel Path="Assets\StoreModelv2_converted.glb" />
 </uap:DefaultTile>
