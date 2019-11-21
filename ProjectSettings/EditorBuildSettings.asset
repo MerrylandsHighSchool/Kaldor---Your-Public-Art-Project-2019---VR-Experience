@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/DulwichHigh.unity
     guid: 5e00dc7aeeaed0b4f9a5e347b7b86214
   - enabled: 1
-    path: Assets/Scenes/Bouke.unity
+    path: Assets/Scenes/Bourke.unity
     guid: d72fe073abb1e6940b734cbcf457f485
   m_configObjects: {}

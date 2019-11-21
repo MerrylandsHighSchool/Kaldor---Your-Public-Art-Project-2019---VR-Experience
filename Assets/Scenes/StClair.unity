@@ -424,7 +424,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360341633}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 15600000, guid: ce1b8a5ff3b34e24f883bc1a94d9bc0f, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &360341635
@@ -1780,8 +1780,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.2, z: 0.001}
-  m_Center: {x: -0.0027598243, y: -0.005692677, z: 0}
+  m_Size: {x: 0.053474262, y: 0.05670909, z: 0.0017293595}
+  m_Center: {x: -0.0015907085, y: -0.0040608738, z: 0.00016112973}
 --- !u!1 &1440081518
 GameObject:
   m_ObjectHideFlags: 0
